@@ -1,0 +1,644 @@
+[p GLOBOPT AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"477 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+[v i2___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+[v i2___lbmod __lbmod `(uc  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"81 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\Lab5.c
+[v _main main `(v  1 e 1 0 ]
+"315
+[v _ISR ISR `IIH(v  1 e 1 0 ]
+"538
+[v _ConfigVariables ConfigVariables `(v  1 e 1 0 ]
+"557
+[v _Bienvenida Bienvenida `(v  1 e 1 0 ]
+"589
+[v _PreguntaAlUsuario PreguntaAlUsuario `(v  1 e 1 0 ]
+"634
+[v _ConfigPregunta ConfigPregunta `(v  1 e 1 0 ]
+"651
+[v _Borrar Borrar `(v  1 e 1 0 ]
+"665
+[v _Conversion Conversion `(ui  1 e 2 0 ]
+"677
+[v _putch putch `(v  1 e 1 0 ]
+"57 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\LibLCDXC8_1.h
+[v _ConfiguraLCD ConfiguraLCD `(v  1 e 1 0 ]
+"61
+[v _EnviaDato EnviaDato `(v  1 e 1 0 ]
+[v i2_EnviaDato EnviaDato `(v  1 e 1 0 ]
+"73
+[v _InicializaLCD InicializaLCD `(v  1 e 1 0 ]
+"107
+[v _HabilitaLCD HabilitaLCD `(v  1 e 1 0 ]
+[v i2_HabilitaLCD HabilitaLCD `(v  1 e 1 0 ]
+"114
+[v _BorraLCD BorraLCD `(v  1 e 1 0 ]
+[v i2_BorraLCD BorraLCD `(v  1 e 1 0 ]
+"121
+[v _CursorAInicio CursorAInicio `(v  1 e 1 0 ]
+[v i2_CursorAInicio CursorAInicio `(v  1 e 1 0 ]
+"127
+[v _ComandoLCD ComandoLCD `(v  1 e 1 0 ]
+[v i2_ComandoLCD ComandoLCD `(v  1 e 1 0 ]
+"140
+[v _EscribeLCD_c EscribeLCD_c `(v  1 e 1 0 ]
+[v i2_EscribeLCD_c EscribeLCD_c `(v  1 e 1 0 ]
+"149
+[v _EscribeLCD_n8 EscribeLCD_n8 `(v  1 e 1 0 ]
+[v i2_EscribeLCD_n8 EscribeLCD_n8 `(v  1 e 1 0 ]
+"236
+[v _MensajeLCD_Var MensajeLCD_Var `(v  1 e 1 0 ]
+[v i2_MensajeLCD_Var MensajeLCD_Var `(v  1 e 1 0 ]
+"245
+[v _DireccionaLCD DireccionaLCD `(v  1 e 1 0 ]
+[v i2_DireccionaLCD DireccionaLCD `(v  1 e 1 0 ]
+"262
+[v _DesplazaPantallaD DesplazaPantallaD `(v  1 e 1 0 ]
+"290
+[v _RetardoLCD RetardoLCD `(v  1 e 1 0 ]
+[v i2_RetardoLCD RetardoLCD `(v  1 e 1 0 ]
+"309
+[v _CrearCaracter CrearCaracter `(v  1 e 1 0 ]
+"323
+[v _OcultarCursor OcultarCursor `(v  1 e 1 0 ]
+[v i2_OcultarCursor OcultarCursor `(v  1 e 1 0 ]
+"326
+[v _MostrarCursor MostrarCursor `(v  1 e 1 0 ]
+[v i2_MostrarCursor MostrarCursor `(v  1 e 1 0 ]
+"2453 C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4550.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"3073
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"3263
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"3375
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4223
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"4936
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S107 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4977
+[s S116 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S119 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S122 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S125 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S128 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S130 . 1 `S107 1 . 1 0 `S116 1 . 1 0 `S119 1 . 1 0 `S122 1 . 1 0 `S125 1 . 1 0 `S128 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES130  1 e 1 @4011 ]
+"5146
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"5402
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5414
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5426
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"6062
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+"6510
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6666
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"6785
+[v _ADRES ADRES `VEus  1 e 2 @4035 ]
+"7415
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+"7518
+[v _TMR1 TMR1 `VEus  1 e 2 @4046 ]
+"8069
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"8139
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"8986
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"9745
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"9763
+[v _GO_DONE GO_DONE `VEb  1 e 0 @32273 ]
+"9934
+[v _LATA1 LATA1 `VEb  1 e 0 @31817 ]
+"9937
+[v _LATA2 LATA2 `VEb  1 e 0 @31818 ]
+"9940
+[v _LATA3 LATA3 `VEb  1 e 0 @31819 ]
+"9943
+[v _LATA4 LATA4 `VEb  1 e 0 @31820 ]
+"9946
+[v _LATA5 LATA5 `VEb  1 e 0 @31821 ]
+"9982
+[v _LATC2 LATC2 `VEb  1 e 0 @31834 ]
+"10273
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"10300
+[v _POR POR `VEb  1 e 0 @32385 ]
+"10375
+[v _RB4 RB4 `VEb  1 e 0 @31756 ]
+"10378
+[v _RB5 RB5 `VEb  1 e 0 @31757 ]
+"10381
+[v _RB6 RB6 `VEb  1 e 0 @31758 ]
+"10384
+[v _RB7 RB7 `VEb  1 e 0 @31759 ]
+"10387
+[v _RBIE RBIE `VEb  1 e 0 @32659 ]
+"10390
+[v _RBIF RBIF `VEb  1 e 0 @32656 ]
+"10396
+[v _RBPU RBPU `VEb  1 e 0 @32655 ]
+"10402
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"10444
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"10447
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"10816
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"10819
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"10825
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"10831
+[v _TMR1IE TMR1IE `VEb  1 e 0 @31976 ]
+"10834
+[v _TMR1IF TMR1IF `VEb  1 e 0 @31984 ]
+"10840
+[v _TMR1ON TMR1ON `VEb  1 e 0 @32360 ]
+"10888
+[v _TRISA1 TRISA1 `VEb  1 e 0 @31889 ]
+"10891
+[v _TRISA2 TRISA2 `VEb  1 e 0 @31890 ]
+"10894
+[v _TRISA3 TRISA3 `VEb  1 e 0 @31891 ]
+"10897
+[v _TRISA4 TRISA4 `VEb  1 e 0 @31892 ]
+"10900
+[v _TRISA5 TRISA5 `VEb  1 e 0 @31893 ]
+"10933
+[v _TRISC1 TRISC1 `VEb  1 e 0 @31905 ]
+"10936
+[v _TRISC2 TRISC2 `VEb  1 e 0 @31906 ]
+"10939
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"10942
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"10978
+[v _TRMT TRMT `VEb  1 e 0 @32097 ]
+"358 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+"16 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\Lab5.c
+[v _Estrella Estrella `[8]uc  1 e 8 0 ]
+"27
+[v _Marco Marco `[8]uc  1 e 8 0 ]
+"41
+[v _piezasTotalesContadas piezasTotalesContadas `ui  1 e 2 0 ]
+"42
+[v _unidades7Seg unidades7Seg `ui  1 e 2 0 ]
+"43
+[v _decenasRGB decenasRGB `ui  1 e 2 0 ]
+"45
+[v _indiceDigitoObjetivo indiceDigitoObjetivo `uc  1 e 1 0 ]
+"46
+[v _modoEdicionObjetivo modoEdicionObjetivo `uc  1 e 1 0 ]
+"47
+[v _piezasObjetivo piezasObjetivo `ui  1 e 2 0 ]
+"49
+[v _flagConteoActivo flagConteoActivo `uc  1 e 1 0 ]
+"50
+[v _teclaLeida teclaLeida `uc  1 e 1 0 ]
+"51
+[v _pulsadorListo pulsadorListo `uc  1 e 1 0 ]
+"53
+[v _segundosSinActividad segundosSinActividad `uc  1 e 1 0 ]
+"58
+[v _adcValor adcValor `ui  1 e 2 0 ]
+"59
+[v _rxByte rxByte `uc  1 e 1 0 ]
+"61
+[v _paradaEmergencia paradaEmergencia `uc  1 e 1 0 ]
+"62
+[v _ordenMotor ordenMotor `uc  1 e 1 0 ]
+"33 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\LibLCDXC8_1.h
+[v _interfaz interfaz `uc  1 e 1 0 ]
+"81 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\Lab5.c
+[v _main main `(v  1 e 1 0 ]
+{
+"310
+} 0
+"589
+[v _PreguntaAlUsuario PreguntaAlUsuario `(v  1 e 1 0 ]
+{
+"632
+} 0
+"326 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\LibLCDXC8_1.h
+[v _MostrarCursor MostrarCursor `(v  1 e 1 0 ]
+{
+"328
+} 0
+"149
+[v _EscribeLCD_n8 EscribeLCD_n8 `(v  1 e 1 0 ]
+{
+[v EscribeLCD_n8@a a `uc  1 p 1 wreg ]
+"154
+[v EscribeLCD_n8@unidad unidad `uc  1 a 1 11 ]
+[v EscribeLCD_n8@decena decena `uc  1 a 1 10 ]
+[v EscribeLCD_n8@centena centena `uc  1 a 1 9 ]
+"149
+[v EscribeLCD_n8@a a `uc  1 p 1 wreg ]
+[v EscribeLCD_n8@b b `uc  1 p 1 8 ]
+"155
+[v EscribeLCD_n8@a a `uc  1 p 1 12 ]
+"186
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 p 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 3 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 2 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 p 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 p 1 1 ]
+"18
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 p 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 7 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 6 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 p 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 4 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 p 1 5 ]
+"26
+} 0
+"538 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\Lab5.c
+[v _ConfigVariables ConfigVariables `(v  1 e 1 0 ]
+{
+"555
+} 0
+"557
+[v _Bienvenida Bienvenida `(v  1 e 1 0 ]
+{
+"583
+[v Bienvenida@i i `i  1 a 2 11 ]
+"587
+} 0
+"323 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\LibLCDXC8_1.h
+[v _OcultarCursor OcultarCursor `(v  1 e 1 0 ]
+{
+"325
+} 0
+"127
+[v _ComandoLCD ComandoLCD `(v  1 e 1 0 ]
+{
+[v ComandoLCD@a a `uc  1 p 1 wreg ]
+[v ComandoLCD@a a `uc  1 p 1 wreg ]
+"129
+[v ComandoLCD@a a `uc  1 p 1 5 ]
+"139
+} 0
+"121
+[v _CursorAInicio CursorAInicio `(v  1 e 1 0 ]
+{
+"126
+} 0
+"236
+[v _MensajeLCD_Var MensajeLCD_Var `(v  1 e 1 0 ]
+{
+"241
+[v MensajeLCD_Var@i i `i  1 a 2 7 ]
+"236
+[v MensajeLCD_Var@a a `*.31uc  1 p 1 5 ]
+"244
+} 0
+"140
+[v _EscribeLCD_c EscribeLCD_c `(v  1 e 1 0 ]
+{
+[v EscribeLCD_c@a a `uc  1 p 1 wreg ]
+[v EscribeLCD_c@a a `uc  1 p 1 wreg ]
+"144
+[v EscribeLCD_c@a a `uc  1 p 1 4 ]
+"148
+} 0
+"73
+[v _InicializaLCD InicializaLCD `(v  1 e 1 0 ]
+{
+"106
+} 0
+"114
+[v _BorraLCD BorraLCD `(v  1 e 1 0 ]
+{
+"120
+} 0
+"262
+[v _DesplazaPantallaD DesplazaPantallaD `(v  1 e 1 0 ]
+{
+"268
+} 0
+"309
+[v _CrearCaracter CrearCaracter `(v  1 e 1 0 ]
+{
+"316
+[v CrearCaracter@i i `i  1 a 2 7 ]
+"309
+[v CrearCaracter@arreglo arreglo `*.30uc  1 p 1 5 ]
+[v CrearCaracter@posicionCGRAM posicionCGRAM `uc  1 p 1 6 ]
+"322
+} 0
+"245
+[v _DireccionaLCD DireccionaLCD `(v  1 e 1 0 ]
+{
+[v DireccionaLCD@a a `uc  1 p 1 wreg ]
+[v DireccionaLCD@a a `uc  1 p 1 wreg ]
+"248
+[v DireccionaLCD@a a `uc  1 p 1 4 ]
+"252
+} 0
+"61
+[v _EnviaDato EnviaDato `(v  1 e 1 0 ]
+{
+[v EnviaDato@a a `uc  1 p 1 wreg ]
+[v EnviaDato@a a `uc  1 p 1 wreg ]
+[v EnviaDato@a a `uc  1 p 1 3 ]
+"72
+} 0
+"290
+[v _RetardoLCD RetardoLCD `(v  1 e 1 0 ]
+{
+[v RetardoLCD@a a `uc  1 p 1 wreg ]
+[v RetardoLCD@a a `uc  1 p 1 wreg ]
+[v RetardoLCD@a a `uc  1 p 1 1 ]
+"308
+} 0
+"107
+[v _HabilitaLCD HabilitaLCD `(v  1 e 1 0 ]
+{
+"113
+} 0
+"57
+[v _ConfiguraLCD ConfiguraLCD `(v  1 e 1 0 ]
+{
+[v ConfiguraLCD@a a `uc  1 p 1 wreg ]
+[v ConfiguraLCD@a a `uc  1 p 1 wreg ]
+[v ConfiguraLCD@a a `uc  1 p 1 0 ]
+"60
+} 0
+"315 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\Lab5.c
+[v _ISR ISR `IIH(v  1 e 1 0 ]
+{
+"533
+} 0
+"236 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\LibLCDXC8_1.h
+[v i2_MensajeLCD_Var MensajeLCD_Var `(v  1 e 1 0 ]
+{
+"241
+[v i2MensajeLCD_Var@i i `i  1 a 2 7 ]
+"236
+[v i2MensajeLCD_Var@a a `*.31uc  1 p 1 5 ]
+"244
+} 0
+"477 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"545
+[v printf@val val `ui  1 a 2 19 ]
+"512
+[v printf@c c `uc  1 a 1 21 ]
+"521
+[v printf@prec prec `c  1 a 1 18 ]
+"525
+[v printf@flag flag `uc  1 a 1 17 ]
+"479
+[v printf@ap ap `[1]*.30v  1 a 1 16 ]
+"477
+[v printf@f f `*.31Cuc  1 p 1 12 ]
+"1567
+} 0
+"677 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\Lab5.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@data data `uc  1 p 1 wreg ]
+[v putch@data data `uc  1 p 1 wreg ]
+[v putch@data data `uc  1 p 1 0 ]
+"681
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 9 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"665 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\Lab5.c
+[v _Conversion Conversion `(ui  1 e 2 0 ]
+{
+[v Conversion@canal canal `uc  1 p 1 wreg ]
+[v Conversion@canal canal `uc  1 p 1 wreg ]
+"667
+[v Conversion@canal canal `uc  1 p 1 2 ]
+"675
+} 0
+"634
+[v _ConfigPregunta ConfigPregunta `(v  1 e 1 0 ]
+{
+"649
+} 0
+"323 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\LibLCDXC8_1.h
+[v i2_OcultarCursor OcultarCursor `(v  1 e 1 0 ]
+{
+"325
+} 0
+"149
+[v i2_EscribeLCD_n8 EscribeLCD_n8 `(v  1 e 1 0 ]
+{
+[v i2EscribeLCD_n8@a a `uc  1 p 1 wreg ]
+"154
+[v i2EscribeLCD_n8@unidad unidad `uc  1 a 1 11 ]
+[v i2EscribeLCD_n8@decena decena `uc  1 a 1 10 ]
+[v i2EscribeLCD_n8@centena centena `uc  1 a 1 9 ]
+"149
+[v i2EscribeLCD_n8@a a `uc  1 p 1 wreg ]
+[v i2EscribeLCD_n8@b b `uc  1 p 1 8 ]
+"155
+[v i2EscribeLCD_n8@a a `uc  1 p 1 12 ]
+"186
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\lbmod.c
+[v i2___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v i2___lbmod@dividend dividend `uc  1 p 1 wreg ]
+"6
+[v i2___lbmod@rem rem `uc  1 a 1 3 ]
+"7
+[v i2___lbmod@counter counter `uc  1 a 1 2 ]
+"4
+[v i2___lbmod@dividend dividend `uc  1 p 1 wreg ]
+[v i2___lbmod@divisor divisor `uc  1 p 1 0 ]
+"9
+[v i2___lbmod@dividend dividend `uc  1 p 1 1 ]
+"18
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\lbdiv.c
+[v i2___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v i2___lbdiv@dividend dividend `uc  1 p 1 wreg ]
+"6
+[v i2___lbdiv@quotient quotient `uc  1 a 1 7 ]
+"7
+[v i2___lbdiv@counter counter `uc  1 a 1 6 ]
+"4
+[v i2___lbdiv@dividend dividend `uc  1 p 1 wreg ]
+[v i2___lbdiv@divisor divisor `uc  1 p 1 4 ]
+"9
+[v i2___lbdiv@dividend dividend `uc  1 p 1 5 ]
+"26
+} 0
+"651 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\Lab5.c
+[v _Borrar Borrar `(v  1 e 1 0 ]
+{
+"663
+} 0
+"326 C:\Users\sergi\OneDrive\Documents\Universidad\Micros\Labs\Laboratorio_5\Lab5.X\LibLCDXC8_1.h
+[v i2_MostrarCursor MostrarCursor `(v  1 e 1 0 ]
+{
+"328
+} 0
+"127
+[v i2_ComandoLCD ComandoLCD `(v  1 e 1 0 ]
+{
+[v i2ComandoLCD@a a `uc  1 p 1 wreg ]
+[v i2ComandoLCD@a a `uc  1 p 1 wreg ]
+"129
+[v i2ComandoLCD@a a `uc  1 p 1 5 ]
+"139
+} 0
+"121
+[v i2_CursorAInicio CursorAInicio `(v  1 e 1 0 ]
+{
+"126
+} 0
+"245
+[v i2_DireccionaLCD DireccionaLCD `(v  1 e 1 0 ]
+{
+[v i2DireccionaLCD@a a `uc  1 p 1 wreg ]
+[v i2DireccionaLCD@a a `uc  1 p 1 wreg ]
+"248
+[v i2DireccionaLCD@a a `uc  1 p 1 4 ]
+"252
+} 0
+"114
+[v i2_BorraLCD BorraLCD `(v  1 e 1 0 ]
+{
+"120
+} 0
+"140
+[v i2_EscribeLCD_c EscribeLCD_c `(v  1 e 1 0 ]
+{
+[v i2EscribeLCD_c@a a `uc  1 p 1 wreg ]
+[v i2EscribeLCD_c@a a `uc  1 p 1 wreg ]
+"144
+[v i2EscribeLCD_c@a a `uc  1 p 1 4 ]
+"148
+} 0
+"61
+[v i2_EnviaDato EnviaDato `(v  1 e 1 0 ]
+{
+[v i2EnviaDato@a a `uc  1 p 1 wreg ]
+[v i2EnviaDato@a a `uc  1 p 1 wreg ]
+[v i2EnviaDato@a a `uc  1 p 1 3 ]
+"72
+} 0
+"290
+[v i2_RetardoLCD RetardoLCD `(v  1 e 1 0 ]
+{
+[v i2RetardoLCD@a a `uc  1 p 1 wreg ]
+[v i2RetardoLCD@a a `uc  1 p 1 wreg ]
+[v i2RetardoLCD@a a `uc  1 p 1 1 ]
+"308
+} 0
+"107
+[v i2_HabilitaLCD HabilitaLCD `(v  1 e 1 0 ]
+{
+"113
+} 0
